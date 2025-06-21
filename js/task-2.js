@@ -35,7 +35,7 @@ const markup = images.map(({ url, alt }) => {
   img.alt = alt;
   img.style.width = `100%`;
 
-  li.append(`img`);
+  li.append(img);
   return li;
 });
 
