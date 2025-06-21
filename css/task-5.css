@@ -1,14 +1,9 @@
 .widget {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  gap: 10px;
-
-  border-radius: 8px;
-  padding: 100px 50px;
-  width: 345px;
-  height: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 p {
@@ -21,12 +16,6 @@ p {
 }
 
 .change-color {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-
   border-radius: 8px;
   padding: 8px 16px;
   width: 148px;
