@@ -16,6 +16,10 @@
   color: #2e2f42;
 }
 
+#name-input:hover {
+  border-color: black;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
